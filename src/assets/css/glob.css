@@ -1,0 +1,25 @@
+*::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 8px;
+    border: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.1);
+    /* -webkit-box-shadow: -2px 0 0 #fff inset, 1px 0 0 #fff inset, 0 -1px 0 rgba(255,255,255,0.9) inset, 0 1px 0 rgba(255,255,255,0.9) inset; */
+}
+.pointer{
+    cursor: pointer
+}
+.ellipsis{
+    overflow: hidden;/*超出部分隐藏*/
+white-space: nowrap;/*不换行*/
+text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
+
+
